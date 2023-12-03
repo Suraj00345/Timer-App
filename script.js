@@ -62,12 +62,12 @@ function createTimer(totalSeconds){
     // Create the 'Stop Timer' button
     const stopButton = document.createElement('button');
     stopButton.classList.add('control-button', 'stop-button');
-    stopButton.textContent = 'Stop Timer';
+    stopButton.textContent = 'Delete';
      
      // Create the 'Delete' button
      const deleteButton = document.createElement('button');
      deleteButton.classList.add('control-button', 'delete-button');
-     deleteButton.textContent = 'Delete';
+     deleteButton.textContent = 'Stop';
      deleteButton.style.display = 'none'; // Initially, hide the delete button
  
      let timerInterval;
