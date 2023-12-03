@@ -148,6 +148,6 @@ function removeNoTimersText() {
 
 // Function to play an audio alert
 function playAudioAlert() {
-    const audio = new Audio('./song1.mp3'); // Replace with the path to your audio file
+    const audio = new Audio('./song2.mp3'); // Replace with the path to your audio file
     audio.play();
 }
